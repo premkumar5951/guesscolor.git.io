@@ -36,7 +36,7 @@ for ( let boxes of box){
         {
             document.getElementById("playbtn").style.color="green"
        
-            
+            document.getElementById("playbtn").innerText="Cheers! You Won";
               bar.style.background=head.innerText;
               document.getElementById("bartxt1").innerText="Play again"
             for (let i=0;i<6;i++){
