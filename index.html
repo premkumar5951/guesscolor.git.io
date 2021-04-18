@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/guess.css">
+    <title>Guess</title>
+</head>
+<body>
+    <header class="header">
+        <div class="text" id="text">
+        <h1>Guess the color</h1>
+        <span id="rgbclr"></span>
+        <h1>Guess the color</h1>
+        </div>
+        
+        <div class="mainbar">
+            <div class="container1 smbar">
+            <li class="bartxt bartxt1 "id="bartxt1" onclick="hard()">Play</li>
+            <li class="bartxt bartxt2" id="playbtn">Start Guessing</li>
+            <li class="bartxt" ><button id="easy" onclick="easy()">Easy</button><button id="hard" onclick="hard()">Hard</button></li>
+            </div>
+        </div>
+    </header>
+        <div class="container">
+            <div class="boxes">
+            <div class="clrbox clrbox1"></div>
+            <div class="clrbox clrbox2"></div>
+            <div class="clrbox clrbox3"></div>
+            <div class="clrbox " id="clrbox4"></div>
+            <div class="clrbox " id="clrbox5"></div>
+            <div class="clrbox " id="clrbox6"></div>
+        </div>
+        </div>
+    <script src="./js/guess.js"></script>
+</body>
+</html>

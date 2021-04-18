@@ -1,0 +1,165 @@
+*{
+    padding: 0px;
+    margin:0px;
+    box-sizing: border-box;
+}
+li{
+    list-style: none;
+}
+body{
+    padding: 0px;
+    margin:0px;
+    box-sizing: border-box;
+    background: rgb(29, 29, 29);
+}
+.text{
+    text-align: center;
+    padding: 0.5em;
+    background-color: orange;
+}
+.container{
+    max-width: 800px;
+    width:90%;
+    margin:0px auto;   
+}
+.container1{
+    max-width: 800px;
+    width:90%;
+    margin:0px auto;   
+}
+.boxes{
+  display:flex;
+  flex-wrap:wrap ;
+}
+.clrbox{
+    margin:1em;
+    width:200px;
+    height:200px;
+    background: blue;
+    border-radius: 1em;
+}
+.smbar{
+    display:flex;
+    align-content:center;
+    padding-left: 5em;
+    background: white;
+}
+.bartxt{
+    flex:1;
+}
+button{
+    padding:10px;
+    background: none;
+    border:none;
+    outline: none;
+}
+#rgbclr{
+    font-size: 3em;
+}
+.mainbar{
+    background: white;
+}
+.bartxt{
+    font-weight: bold;
+}
+#easy,#hard{
+    font-weight: bold;
+}
+.bartxt1,.bartxt2{
+    margin-top:7px;
+}
+.bartxt1:hover,button:hover,.clrbox:hover{
+  cursor: pointer;
+  
+}
+@media (max-width:790px)
+{
+    .clrbox{
+        width:160px;
+        height:160px;
+    }
+    .container{
+        max-width: 600px;
+    }
+    .boxes{
+        justify-content: space-between;
+    }
+}
+@media (max-width:640px)
+{
+    .clrbox{
+        width:130px;
+        height:130px;
+    }
+    .container{
+        max-width: 500px;
+    }
+    .boxes{
+        justify-content: space-between;
+    }
+}
+@media (max-width:550px)
+{
+    .container1{
+        max-width:100%;
+    }
+    .smbar{
+        padding-left: 0px;
+    }
+    .clrbox{
+        width:100px;
+        height:100px;
+    }
+    .container{
+        max-width: 400px;
+        width:100%;
+    }
+    .boxes{
+        justify-content: space-between;
+    }
+}
+@media (max-width:400px)
+{
+    .clrbox{
+        width:80px;
+        height:80px;
+    }
+    .container{
+        max-width: 350px;
+    }
+    .boxes{
+        justify-content: space-evenly;
+    }
+    #rgbclr{
+font-size: 2em;
+    }
+}
+@media (max-width:291px)
+{
+    .clrbox{
+        width:90px;
+        height:90px;
+        max-width: 300px;
+    }
+    .container{
+        max-width: 350px;
+    }
+    .boxes{
+        justify-content: space-evenly;
+    }
+}
+@media (max-width:340px)
+{
+   
+    .bartxt1,.bartxt2{
+        margin-top: 18px;
+    } 
+    .bartxt2{
+        margin-top: 17px;
+       
+    } 
+    button{
+padding:11px;
+    }
+    
+}
